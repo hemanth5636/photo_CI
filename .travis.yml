@@ -4,6 +4,7 @@ python:
   - "3.6"
 evn:
   - DJANGO=1.10
-
+install:
+  - pip install django==$DJANGO --quiet
 scripts:
   - pyhton manage.py test
