@@ -3,8 +3,8 @@ language:
 python:
   - "3.6"
 evn:
-  - DJANGO=1.11
+  - DJANGO=1.10
 install:
-  - sudo pip install django --quiet
+  - pip install django --quiet
 scripts:
   - pyhton manage.py test
