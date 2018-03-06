@@ -5,6 +5,7 @@ python:
 evn:
   - DJANGO=1.10
 install:
+  - pip install urllib3 --upgrade
   - pip install requests[security]
   - pip install django==1.11 --quiet
 scripts:
