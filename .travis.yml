@@ -5,6 +5,6 @@ python:
 evn:
   - DJANGO=1.10
 install:
-  - pip install django==$DJANGO --quiet --use-mirrors
+  - pip install django==$DJANGO --quiet
 scripts:
   - pyhton manage.py test
