@@ -8,5 +8,6 @@ install:
 
   - pip install requests[security]
   - pip install django==2.0 --quiet
+  - pip install pillow
 script:
   - python manage.py test
