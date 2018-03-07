@@ -3,7 +3,7 @@ language: python
 python:
   - 3.6
 evn:
-  - DJANGO=1.10
+  - DJANGO=2.0
 install:
 
   - pip install requests[security]
