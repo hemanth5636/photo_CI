@@ -20,6 +20,5 @@ class PhotoTestCasses(TestCase):
         image = self.generate_photo_file()
 
         response = self.client.post(reverse(response_page), {'pic':image}, format='multipart')
-        
+
         self.assertEqual(response.status_code, status.OK._value_)
-        return
