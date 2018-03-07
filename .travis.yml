@@ -1,7 +1,7 @@
-language:
-  pyhton
+language: pyhton
+
 python:
-  - "3.6"
+  - 3.6
 evn:
   - DJANGO=1.10
 install:
