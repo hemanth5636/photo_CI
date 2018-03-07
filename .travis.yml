@@ -8,5 +8,5 @@ install:
 
   - pip install requests[security]
   - pip install django==1.11 --quiet
-scripts:
+script:
   - python manage.py test
