@@ -9,4 +9,4 @@ install:
   - pip install requests[security]
   - pip install django==1.11 --quiet
 scripts:
-  - pyhton manage.py test
+  - python manage.py test
