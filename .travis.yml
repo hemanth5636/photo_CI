@@ -5,7 +5,7 @@ python:
 evn:
   - DJANGO=1.10
 install:
-  - pip install pycodestyle --user
+  
   - pip install requests[security]
   - pip install django==1.11 --quiet --user
 scripts:
