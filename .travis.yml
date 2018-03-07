@@ -5,8 +5,8 @@ python:
 evn:
   - DJANGO=1.10
 install:
-  
+
   - pip install requests[security]
-  - pip install django==1.11 --quiet --user
+  - pip install django==1.11 --quiet
 scripts:
   - pyhton manage.py test
